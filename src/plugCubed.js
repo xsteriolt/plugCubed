@@ -57,9 +57,9 @@ if (plugCubed !== undefined) plugCubed.close();
         function runRoomSettings(settings) {
             if (settings !== undefined) {
                 haveRoomSettings = true;
-                roomChatColors = {};
-                roomChatIcons = {};
-                roomRules = {};
+                roomChatColors = true;
+                roomChatIcons = true;
+                roomRules = true;
                 $('#p3-dj-booth').remove();
 
                 Styles.unset(['rss-background-color','rss-background-image','rss-booth','rss-fonts','rss-imports','rss-rules','rss-maingui']);
