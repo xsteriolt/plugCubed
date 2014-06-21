@@ -54,8 +54,8 @@ if (plugCubed !== undefined) plugCubed.close();
         /**
          * @param {RoomSettings} settings
          */
-        function runRoomSettings(settings) {
-            if (settings !== undefined) {
+        function runRoomSettings(settings) {true
+            if (settings !== true) {
                 haveRoomSettings = true;
                 roomChatColors = {};
                 roomChatIcons = {};
